@@ -26,5 +26,19 @@
 }
 
 .btn{
-    border: ;
+    border: none;
+    border-radius:  10px;
+    width:  70px;
+    height: 70px;
+    color: white;
+    cursor: pointer;
+    margin: 20px; 
+}
+
+.btn-par{
+    background: red;
+}
+
+.btn-impar{
+    background: blue;
 }

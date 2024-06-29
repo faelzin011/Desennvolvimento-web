@@ -1,0 +1,18 @@
+@import url(../css/reset.css);
+
+.imagem-coracao {
+    border-radius: 40%;
+    filter: drop-shadow(0 -6mm 4mm rgb(255, 0, 0));
+    animation: animacao-imagem 1s linear infinite;
+}
+
+@keyframes animacao-imagem {
+    0% {
+        transform: rotate(1deg);
+        filter: hue-rotate(900deg);
+    }
+
+    100% {
+        width: 00px;
+    }
+}
